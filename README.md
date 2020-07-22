@@ -31,8 +31,8 @@ php artisan migrate --seed
 
 ## Setup in webserver and `/etc/hosts`
 
-Add a VirtualHost for example.local in your Apache or nginx configuration.
-Add the mapping in `etc/hosts` or `C:\Windows\System32\drivers\etc\hosts`(in Windows).
+-   Add a VirtualHost for `example.local` in your Apache or nginx configuration.
+-   Add the mapping in `etc/hosts` or `C:\Windows\System32\drivers\etc\hosts`(in Windows).
 
 ## Almost there
 
