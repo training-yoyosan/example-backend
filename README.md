@@ -12,7 +12,7 @@ npm install
 ## Setup `.env` file
 
 ```bash
-cp env.exaple .env
+cp .env.exaple .env
 ##
 # adjust database settings to use sqlite or mysql
 ##
