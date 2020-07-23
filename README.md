@@ -42,6 +42,8 @@ Next set up the Quasar app from [here](https://github.com/training-yoyosan/examp
 
 Now access the application at http://localhost:8080.
 
+Use `admin@example.local` and password `test1234` to login.
+
 ## Deployment in production
 
 ### Setup
