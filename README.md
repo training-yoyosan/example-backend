@@ -78,3 +78,9 @@ php artisan migrate --seed
 **Note**: You're going to use a subdomain for the backend.
 
 That's it.
+
+## Resources
+
+-   https://laravel.com/docs/7.x/sanctum#spa-authentication
+-   https://laracasts.com/series/whats-new-in-laravel-7/episodes/6
+-   Quasar Discord #laravel channel
