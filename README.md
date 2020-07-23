@@ -2,6 +2,12 @@
 
 Laravel 7+ project to use with a Quasar app.
 
+## Demo
+
+Check out SPA live demo at http://frex.mpalade.ro.
+
+You can access the Laravel demo at http://baex.mpalade.ro.
+
 ## Local setup
 
 ### Install the dependencies
@@ -72,7 +78,3 @@ php artisan migrate --seed
 **Note**: You're going to use a subdomain for the backend.
 
 That's it.
-
-## Demo
-
-Check out the live demo at http://frex.mpalade.ro
