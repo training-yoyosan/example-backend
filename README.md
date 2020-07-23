@@ -4,7 +4,7 @@ Laravel 7+ project to use with a Quasar app.
 
 ## Demo
 
-Check out SPA live demo at http://frex.mpalade.ro.
+Check out SPA live demo at http://frex.mpalade.ro. Use `admin@example.local` and password `test1234` to login.
 
 You can access the Laravel demo at http://baex.mpalade.ro.
 
