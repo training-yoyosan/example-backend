@@ -72,3 +72,7 @@ php artisan migrate --seed
 **Note**: You're going to use a subdomain for the backend.
 
 That's it.
+
+## Demo
+
+Check out the live demo at http://frex.mpalade.ro
