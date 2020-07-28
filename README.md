@@ -50,6 +50,11 @@ Now access the application at http://localhost:8080.
 
 Use `admin@example.local` and password `test1234` to login.
 
+### Debugging in Postman
+
+Since this project uses Sanctum's cookie authentication, you have to follow
+[this guide](https://blog.codecourse.com/laravel-sanctum-airlock-with-postman/) to be able to debug your API requests with Postman.
+
 ## Deployment in production
 
 ### Setup
@@ -84,3 +89,4 @@ That's it.
 -   https://laravel.com/docs/7.x/sanctum#spa-authentication
 -   https://laracasts.com/series/whats-new-in-laravel-7/episodes/6
 -   Quasar Discord #laravel channel
+-   https://blog.codecourse.com/laravel-sanctum-airlock-with-postman/
