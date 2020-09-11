@@ -6,7 +6,7 @@
     {
       "label": "Build prod",
       "type": "shell",
-      "command": "ssh -p31222 root@mpalade.ro 'cd /home/mpalade/public_html && sh scripts/deploy_prod.sh'; New-BurntToastNotification -Text 'Deployed `example-backend` on prod'",
+      "command": "ssh -p31222 root@mpalade.ro 'cd /home/mpalade/sites/example-backend && sh scripts/deploy_prod.sh'; New-BurntToastNotification -Text 'Deployed `example-backend` on prod'",
       "problemMatcher": [],
       "group": {
         "kind": "build",
