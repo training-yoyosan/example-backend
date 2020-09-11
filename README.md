@@ -1,6 +1,6 @@
 # Example Backend (example-backend)
 
-Laravel 7+ project to use with a Quasar app.
+Laravel 8 project to use with a Quasar app.
 
 ## Demo
 
