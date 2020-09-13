@@ -37,6 +37,15 @@ php artisan key:generate
 php artisan migrate --seed
 ```
 
+### Cache essentials
+
+```bash
+composer install --optimize-autoloader --no-dev
+php artisan config:cache
+php artisan route:cache
+php artisan view:cache
+```
+
 ### Setup in webserver and `/etc/hosts`
 
 -   Add a VirtualHost for `example.local` in your Apache or nginx configuration.
