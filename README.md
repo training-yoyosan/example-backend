@@ -80,6 +80,15 @@ php artisan key:generate
 php artisan migrate --seed
 ```
 
+### Cache essentials
+
+```bash
+composer install --optimize-autoloader --no-dev
+php artisan config:cache
+php artisan route:cache
+php artisan view:cache
+```
+
 **Note**: You're going to use a subdomain for the backend.
 
 That's it.
