@@ -1,3 +1,5 @@
+![Quasar + Laravel = Love](https://baex.mpalade.ro/images/quasar_and_laravel_is_love.png)
+
 # Example Backend (example-backend)
 
 Laravel 8 project to use with a Quasar app.
