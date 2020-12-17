@@ -88,7 +88,7 @@ php artisan migrate --seed
 
 #### Note
 
-These are the values I use for my subdomain so that it works with the SPA:
+These are the values I use for my example instance so that it works with the SPA:
 
 ```
 SANCTUM_STATEFUL_DOMAINS=frex.mpalade.ro
@@ -116,7 +116,7 @@ That's it.
 
 ## Resources
 
--   https://laravel.com/docs/7.x/sanctum#spa-authentication
+-   https://laravel.com/docs/8.x/sanctum#spa-authentication
 -   https://laracasts.com/series/whats-new-in-laravel-7/episodes/6
 -   Quasar Discord #laravel channel
 -   https://blog.codecourse.com/laravel-sanctum-airlock-with-postman/
