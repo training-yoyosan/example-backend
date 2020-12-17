@@ -86,6 +86,21 @@ php artisan key:generate
 php artisan migrate --seed
 ```
 
+#### Note
+
+These are the values I use for my subdomain so that it works with the SPA:
+
+```
+SANCTUM_STATEFUL_DOMAINS=frex.mpalade.ro
+SESSION_DOMAIN=.mpalade.ro
+```
+
+- `frex.mpalade.ro` is the subdomain of my SPA
+- I'm using ```.mpalade.ro``` for the session domain so that cookies are correctly set for all subdomains.
+- You can narrow the scope of the session domain if you have many nested domains, that is:
+    - You have the subdomain ```abc.xyz.spa.example.com```
+    - You can set the session domain to ```.spa.example.com```
+
 ### Cache essentials
 
 ```bash
