@@ -117,6 +117,7 @@ That's it.
 ## Resources
 
 -   https://laravel.com/docs/8.x/sanctum#spa-authentication
+-   https://laravel.com/docs/8.x/fortify
 -   https://laracasts.com/series/whats-new-in-laravel-7/episodes/6
 -   Quasar Discord #laravel channel
 -   https://blog.codecourse.com/laravel-sanctum-airlock-with-postman/
