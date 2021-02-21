@@ -114,6 +114,21 @@ php artisan view:cache
 
 That's it.
 
+## Upgrade Notes
+
+### Laravel Fortify
+
+I've recently switched to using [Laravel Fortify](https://laravel.com/docs/8.x/fortify) since it's more appropriate for the purpose of the repository.
+Run the following commands to install everything that's needed:
+
+```bash
+composer install --optimize-autoloader --no-dev
+php artisan migrate
+php artisan config:cache
+php artisan route:cache
+php artisan view:cache
+```
+
 ## Resources
 
 -   https://laravel.com/docs/8.x/sanctum#spa-authentication
