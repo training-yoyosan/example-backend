@@ -2,13 +2,32 @@
 
 # Example Backend (example-backend)
 
-Laravel 8 project to use with a Quasar app.
+Laravel 8 skeleton API project to use with a Quasar/Nuxt.js or any other Vue related app.
+It should also work with React related apps too.
+
+The project uses:
+
+- Laravel Sanctum's SPA authentication
+- Laravel Fortify routes for login, registration, etc., without any views enabled.
 
 ## Demo
 
 Check out SPA live demo at http://frex.mpalade.ro. Use `admin@example.local` and password `test1234` to login.
 
 You can access the Laravel demo at http://baex.mpalade.ro.
+
+## How to use
+
+Just clone this project into your desired new awesome project folder:
+
+```bash
+cd ~/Work
+git clone git@github.com:training-yoyosan/example-backend.git your-next-awesome-project 
+```
+
+and follow the instructions below to set it up for local or production.
+
+Then customize it to your heart's content.
 
 ## Local setup
 
@@ -86,7 +105,7 @@ php artisan key:generate
 php artisan migrate --seed
 ```
 
-#### Note
+#### Notes
 
 These are the values I use for my example instance so that it works with the SPA:
 
@@ -122,6 +141,11 @@ I've recently switched to using [Laravel Fortify](https://laravel.com/docs/8.x/f
 Run the following commands to install everything that's needed:
 
 ```bash
+# for local environment
+composer install
+php artisan migrate
+
+# for production environment
 composer install --optimize-autoloader --no-dev
 php artisan migrate
 php artisan config:cache
