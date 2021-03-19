@@ -126,7 +126,6 @@ SESSION_DOMAIN=.mpalade.ro
 composer install --optimize-autoloader --no-dev
 php artisan config:cache
 php artisan route:cache
-php artisan view:cache
 ```
 
 **Note**: You're going to use a subdomain for the backend.
@@ -150,7 +149,6 @@ composer install --optimize-autoloader --no-dev
 php artisan migrate
 php artisan config:cache
 php artisan route:cache
-php artisan view:cache
 ```
 
 ## Resources
