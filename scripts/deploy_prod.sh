@@ -11,7 +11,7 @@ php artisan view:cache
 
 # fix permissions
 sudo chown -R worker:www-data .
-sudo chmod -R u+rwX,go+rX,go-w .
+sudo chmod -R 775 .
 
 # all done
 php artisan up
