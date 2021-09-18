@@ -90,7 +90,7 @@ composer ins
 yarn
 
 # setup env
-cp .env.production .env
+cp .env.production.sample .env.production
 ##
 # Adjust the following:
 # - APP_URL
@@ -98,7 +98,7 @@ cp .env.production .env
 # - SESSION_DOMAIN
 # - Database related vars
 ##
-vim .env
+vim .env.production
 php artisan key:generate
 
 # run migrations
