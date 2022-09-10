@@ -46,6 +46,10 @@ cp .env.example .env
 # adjust database settings to use sqlite or mysql
 ##
 vim .env
+
+# to use sqlite, comment DB_DATABASE=laravel with a #
+touch database/database.sqlite
+
 ##
 # generate APP_KEY
 ##
@@ -66,6 +70,16 @@ php artisan migrate --seed
 ```
 127.0.0.1   example.local
 ```
+
+As an alternative, I've added sail to make it simpler to run the project locally.
+
+Just run:
+
+```bash
+./vendor/bin/sail up -d
+```
+
+and use `http://localhost` for your `quasar.config` proxy. 
 
 ### Almost there
 
