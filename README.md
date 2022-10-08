@@ -2,7 +2,7 @@
 
 # Example Backend (example-backend)
 
-Laravel 8 skeleton API project to use with a Quasar/Nuxt.js or any other Vue related app.
+Laravel 9 skeleton API project to use with a Quasar/Nuxt.js or any other Vue related app.
 It should also work with React related apps too.
 
 The project uses:
@@ -150,7 +150,7 @@ That's it.
 
 ### Laravel Fortify
 
-I've recently switched to using [Laravel Fortify](https://laravel.com/docs/8.x/fortify) since it's more appropriate for the purpose of the repository.
+I've recently switched to using [Laravel Fortify](https://laravel.com/docs/9.x/fortify) since it's more appropriate for the purpose of the repository.
 Run the following commands to install everything that's needed:
 
 ```bash
@@ -167,8 +167,8 @@ php artisan route:cache
 
 ## Resources
 
--   https://laravel.com/docs/8.x/sanctum#spa-authentication
--   https://laravel.com/docs/8.x/fortify
+-   https://laravel.com/docs/9.x/sanctum#spa-authentication
+-   https://laravel.com/docs/9.x/fortify
 -   https://laracasts.com/series/whats-new-in-laravel-7/episodes/6
 -   Quasar Discord #laravel channel
 -   https://blog.codecourse.com/laravel-sanctum-airlock-with-postman/

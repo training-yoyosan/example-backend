@@ -12,7 +12,7 @@ class UserController extends Controller
      * @param  Request  $request
      * @return mixed
      */
-    public function info(Request $request)
+    public function info(Request $request): mixed
     {
         return $request->user();
     }
